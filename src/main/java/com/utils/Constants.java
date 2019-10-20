@@ -23,6 +23,5 @@ public class Constants {
 	}
 	public static String Cdriverlocation = prop.getProperty("DriverLoc");
 	public static WebDriver driver;
-	public static WebDriverWait wait;
 	
 }
