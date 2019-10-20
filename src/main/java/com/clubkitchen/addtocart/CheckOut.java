@@ -11,7 +11,7 @@ public class CheckOut {
 
 	public static void checkOutOrder() {
 		
-		Select date=new Select(Constants.driver.findElement(By.id("order_delivery_time")));
+		Select date=new Select(Constants.driver.findElement(By.id("order_delivery_date")));
 		date.selectByIndex(0);
 		BrowserLaunch.test.log(LogStatus.PASS, "Date Selected Successfully");
 		Select time=new Select(Constants.driver.findElement(By.id("order_delivery_time")));
